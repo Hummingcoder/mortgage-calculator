@@ -113,7 +113,7 @@ const App = () => {
 
   return (
     <main className="w-full  bg-Slate100  min-h-screen font-jakarta-sans flex items-center justify-center">
-      <article className="flex bg-white flex-col lg:max-h-[600px] lg:h-[90vh] items-center justify-center lg:flex-row max-w-[600px] lg:w-[80vw] lg:max-w-[1240px]  w-full lg:rounded-xl shadow-md overflow-hidden">
+      <article className="flex bg-white flex-col lg:max-h-[600px] lg:h-[90vh] items-center justify-center lg:flex-row max-w-[600px]  lg:max-w-[1000px]  w-full lg:rounded-xl shadow-md overflow-hidden">
         <section className="px-[5%] bg-white w-full  h-full py-7 lg:py-14">
           <form
             action="_"

@@ -6,7 +6,7 @@ const Empty = () => {
       <img
         className="w-[130px] md:w-[180px]"
         src="assets/images/illustration-empty.svg"
-        alt=""
+        alt="img-empty"
       />
       <p className="text-Slate100 text-lg md:text-xl font-bold">
         Results shown here

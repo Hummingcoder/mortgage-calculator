@@ -113,7 +113,7 @@ const App = () => {
 
   return (
     <main className="w-full  bg-Slate100  min-h-screen font-jakarta-sans flex items-center justify-center">
-      <article className="flex bg-white flex-col lg:max-h-[600px] lg:h-[90vh] items-center justify-center lg:flex-row max-w-[600px]  lg:max-w-[1000px]  w-full lg:rounded-xl shadow-md overflow-hidden">
+      <article className="flex bg-white flex-col lg:max-h-[600px] lg:h-[90vh] items-center justify-center lg:flex-row max-w-[600px]  lg:max-w-[1000px]  w-full lg:rounded-[30px] shadow-md overflow-hidden">
         <section className="px-[5%] bg-white w-full  h-full py-7 lg:py-14">
           <form
             action="_"
@@ -270,7 +270,7 @@ const App = () => {
             </button>
           </form>
         </section>
-        <section className="bg-Slate900 rounded-none lg:rounded-bl-[60px] w-full h-[100%] px-[5%] py-12 ">
+        <section className="bg-Slate900 rounded-none lg:rounded-bl-[80px] w-full h-[100%] px-[5%] py-12 ">
           {!visible ? <Empty /> : <Results {...resultObj} />}
         </section>
       </article>
